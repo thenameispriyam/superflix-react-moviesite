@@ -4,7 +4,9 @@ const MovieCard = ({ movie: { imdbID, Year, Poster, Title, Type } }) => {
   return (
     <div className="movie" key={imdbID}>
       <div>
+        <p>{Title}</p>
         <p>{Year}</p>
+        <p>{Type}</p>
       </div>
 
       <div>
